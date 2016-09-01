@@ -4,6 +4,7 @@
 
 import Log from './Util';
 import Server from './rest/Server';
+var config = require('../config.json');
 
 export class App {
 
@@ -16,4 +17,4 @@ export class App {
 
 Log.info('App - starting');
 let app = new App();
-app.initServer(4321);
+app.initServer(config.port);

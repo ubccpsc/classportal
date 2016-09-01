@@ -7,3 +7,7 @@ src/.*\.js
 src/.*\.map
 test/.*\.js
 test/.*\.map
+frontend/public/bundle.js
+src/rest/config2.ts
+sampleData/
+priv/
