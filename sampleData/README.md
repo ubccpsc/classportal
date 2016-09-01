@@ -31,4 +31,8 @@ The ```id``` can be assumed to be unique; if it is already known to the Portal, 
 
 
 
- 
+ config.json
+
+ register new oauth application on github (https://github.com/settings/applications/). set the callback to be <server>/postlogin Set clientid and client secret in config.json with these
+
+update frontend/modules/login_page/GithubButton.js  with the clientid and postlogin url
